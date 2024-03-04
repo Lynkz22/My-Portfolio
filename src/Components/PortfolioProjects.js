@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "../Styles/PortfolioProjects.css";
-import bcgImage from "../Components/Assets/BCG.jpg";
-
+import bcgImage from "../Components/Assets/Portfolio/HSA1.webp";
+import bcgImage from "../Components/Assets/Portfolio/UNIK2.webp";
 const PortfolioProjects = () => {
   return (
     <>
