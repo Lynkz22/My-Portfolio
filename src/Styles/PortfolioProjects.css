@@ -1,0 +1,125 @@
+.sectionPortfolioProjects {
+  width: 80%;
+  margin: 15rem auto 0 auto;
+}
+
+.divProjectHSA {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.divProjectsHSAPicture {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+
+.hsaImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.divProjectsHSAText {
+  width: 90%;
+  margin: 0 auto 0 auto;
+  font-size: 1.4rem;
+  display: grid;
+  justify-content: space-between;
+}
+
+.divProjectsHSAText p {
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.buttonVisitSite {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  background-color: #180e7f;
+  border: 1px solid #180e7f;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Dancing Script", cursive;
+}
+
+.buttonVisitSite:hover {
+  background-color: #e10600;
+  transition: all 1s ease-in-out;
+  border: 1px solid #e10600;
+}
+
+.divProjectUNIK {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .sectionPortfolioProjects {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .divProjectsHSAText {
+    width: 95%;
+    margin: 0 auto 0 auto;
+    font-size: 1.2rem;
+  }
+
+  .divProjectsHSAText p {
+    letter-spacing: 1.5px;
+  }
+
+  .buttonVisitSite {
+    font-size: 1rem;
+    padding: 0.3rem;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .divProjectsHSAText {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+
+  .buttonVisitSite {
+    font-size: 0.7rem;
+    padding: 0.4rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+
+  .divProjectHSA {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
+
+  .divProjectUNIK {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-bottom: 6rem;
+  }
+}
