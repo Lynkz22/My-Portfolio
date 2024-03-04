@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "../Styles/PortfolioProjects.css";
-import bcgImage from "../Components/Assets/Portfolio/HSA1.webp";
-import bcgImage from "../Components/Assets/Portfolio/UNIK2.webp";
+import hsaImage from "../Components/Assets/Portfolio/HSA1.webp";
+import unikImage from "../Components/Assets/Portfolio/UNIK2.webp";
 const PortfolioProjects = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const PortfolioProjects = () => {
             transition={{ duration: 6 }}
             viewport={{ once: true }}
           >
-            <img className="hsaImage" alt="HSAImage" src={bcgImage} />
+            <img className="hsaImage" alt="HSAImage" src={hsaImage} />
           </motion.div>
           <motion.div
             className="divProjectsHSAText"
@@ -75,7 +75,7 @@ const PortfolioProjects = () => {
             transition={{ duration: 6 }}
             viewport={{ once: true }}
           >
-            <img className="hsaImage" alt="UNIKImage" src={bcgImage} />
+            <img className="hsaImage" alt="UNIKImage" src={unikImage} />
           </motion.div>
         </div>
       </section>
