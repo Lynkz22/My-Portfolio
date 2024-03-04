@@ -8,7 +8,7 @@ const PortfolioSocials = () => {
       <section className="sectionPortfolioSocials">
         <div className="socialLinks">
           <a
-            href="https://unik-website-psi.vercel.app/"
+            href="https://wa.me/2348119030493"
             target="_blank"
             rel="noopener noreferrer"
           >
