@@ -64,7 +64,7 @@ const PortfolioProjects = () => {
               and construction of such projects.
             </p>
             <a
-              href="https://unik-website-psi.vercel.app/"
+              href="https://unik-tosa-website.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
