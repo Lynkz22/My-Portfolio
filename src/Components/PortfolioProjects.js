@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 import "../Styles/PortfolioProjects.css";
 import hsaImage from "../Components/Assets/Portfolio/HSA1.webp";
 import unikImage from "../Components/Assets/Portfolio/UNIK2.webp";
+// import unikImage from "../Components/Assets/Portfolio/UNIK2.webp";
+import kgreatImage from "../Components/Assets/Portfolio/KGREAT.webp";
+
 const PortfolioProjects = () => {
   return (
     <>
@@ -76,6 +79,43 @@ const PortfolioProjects = () => {
             viewport={{ once: true }}
           >
             <img className="hsaImage" alt="UNIKImage" src={unikImage} />
+          </motion.div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div className="divProjectUNIK">
+          <motion.div
+            className="divProjectsHSAPicture"
+            initial={{ opacity: 0.3, scale: 0.4 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 6 }}
+            viewport={{ once: true }}
+          >
+            <img className="hsaImage" alt="K-GreatImage" src={kgreatImage} />
+          </motion.div>
+          <motion.div
+            className="divProjectsHSAText"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 6 }}
+            viewport={{ once: true }}
+          >
+            <p>
+              A website for K-Great Engineering, an organization serving private
+              enterprises and governmental agencies in providing consultancy and
+              advisory services in Mechanical and Electrical Engineering,
+              including construction with services including every stage of
+              development from reconnaissance, through feasibility
+              investigations, design, and construction of such projects.
+            </p>
+            <a
+              href="http://kgreatengineering.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="buttonVisitSite">Visit Site</button>
+            </a>
           </motion.div>
         </div>
       </section>
