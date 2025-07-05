@@ -6,11 +6,53 @@ import hsaImage from "../Components/Assets/Portfolio/HSA1.webp";
 import unikImage from "../Components/Assets/Portfolio/UNIK2.webp";
 // import unikImage from "../Components/Assets/Portfolio/UNIK2.webp";
 import kgreatImage from "../Components/Assets/Portfolio/KGREAT.webp";
+import walkProjects from "../Components/Assets/Portfolio/WalkProjects.webp";
 
 const PortfolioProjects = () => {
   return (
     <>
       <section className="sectionPortfolioProjects">
+        <div className="divProjectHSA">
+          <motion.div
+            className="divProjectsHSAPicture"
+            initial={{ opacity: 0.3, scale: 0.4 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 6 }}
+            viewport={{ once: true }}
+          >
+            <img className="hsaImage" alt="HSAImage" src={walkProjects} />
+          </motion.div>
+          <motion.div
+            className="divProjectsHSAText"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 6 }}
+            viewport={{ once: true }}
+          >
+            <p>
+              A website for Walk Projects, a Mechanical, Electrical, and
+              Plumbing (MEP) firm that specializes in the design and
+              implementation of building systems for a wide range of
+              structures—residential, commercial, institutional, and industrial.
+              They provide specialized services in HVAC design, electrical power
+              and lighting systems, water supply and drainage solutions, fire
+              protection systems, and building automation. Let me know if you'd
+              like to add visuals, animations, or any specific project
+              highlights to the site description—it could really show off your
+              design talent!
+            </p>
+            <a
+              href="https://handsketcharchitect.com/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="buttonVisitSite">Visit Site</button>
+            </a>
+          </motion.div>
+        </div>
+        <br />
+        <br />
+        <br />
         <div className="divProjectHSA">
           <motion.div
             className="divProjectsHSAPicture"
@@ -64,7 +106,7 @@ const PortfolioProjects = () => {
               and construction of such projects.
             </p>
             <a
-              href="https://unik-tosa-website.vercel.app/"
+              href="https://https://uniktosalimited.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
